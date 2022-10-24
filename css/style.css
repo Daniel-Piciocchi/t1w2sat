@@ -92,3 +92,21 @@ main {
 .training-option h3 {
     color: #2b78e4;
 }
+
+@media screen and (min-width: 600px){
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .training-option{
+        padding: 20px;
+    }
+
+    .training-option img {
+        width: 400px;
+        height: 400px;
+    }
+
+}
